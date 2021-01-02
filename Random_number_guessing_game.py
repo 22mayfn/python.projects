@@ -6,7 +6,7 @@ random_number = random.randint(0, 100)
 init_score = 3
 
 while True:
-    a = input("Guess a number between 0 and 100: ")
+    a = input("Guess a number between 0 and 100: ")                     #This string prints correctly, but for whatever reason it won't continue on in the loop..
     a = int(a)
     if a == random_number:
         print("You guessing correctly!")
